@@ -58,7 +58,7 @@ Run the pipeline to generate files for each sample.
 [fastq_dir]: directory of fastq files.
 
 ```
-python cfDNA_pipeline.py [tool_dir] sample.txt [out_dir] [cfDNA_reference] [fastq_dir]
+python cfDNA_pipeline.py [tool_dir] sample.list [out_dir] [cfDNA_reference] [fastq_dir]
 cd [out_dir]/script
 sh sample1_cfDNA.sh
 sh sample2_cfDNA.sh
