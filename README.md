@@ -1,37 +1,47 @@
 # cfDNA pipeline instruction
 
-### AVID is a sensitive and accurate tool for viral integration detection by next-generation sequencing data.
+
 
 # 1. Installation
-Installation depends on conda. All necessary packages and tools should be set up.
+All necessary packages and tools will be set up by conda.
 ```
 sh cfDNA_pipeline.sh [tool_dir]
 ```
 
-e.g.
+e.g., [env] subdirectory will be created automatically.
 ```
 sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/env
 ```
-[env] directory does not need to be created.
 
-If these packages and tools cannot be installed successfully by conda, please specify the path of the tools in cfDNA_pipeline.py
+
+If these packages and tools cannot be installed successfully by conda, please try to install them in other ways and replace the paths of the tools in cfDNA_pipeline.py
 
 Required packages and tools:
 <ol>
-<li>fastp</li>
+<li>fastp (https://github.com/OpenGene/fastp)</li>
 <li>bwa</li>
-<li>samtools</li>
-<li>gatk4</li>
-<li>picard</li>
-<li>AVID</li>
-<li>cnvkit</li>
+<li>samtools (https://www.htslib.org/download/)</li>
+<li>gatk4 (https://github.com/broadinstitute/gatk/releases)</li>
+<li>picard (https://broadinstitute.github.io/picard/)</li>
+<li>AVID (https://github.com/xueyinglyu/AVID)</li>
+<li>cnvkit (https://pypi.org/project/CNVkit/)</li>
 <li>pandas</li>
 <li>numpy</li>
+<li>pysam</li> 
 </ol>
 
 # 2. Preparation 
-All necessary reference files are located in cfDNA_reference directory. Users need to prepare a list of samples by themselves (e.g. sample.txt).
+All necessary reference files are located in [cfDNA_reference] directory. 
 
+Users need to prepare a list of samples by themselves before running the pipeline (e.g., sample.txt).
+
+The name of sample matches to fastq files.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
+
+| sample1 | 
+| sample2 |
+| sample3 |
+| sample4 |
+| sample5 |
 
 
 # 3. Running
