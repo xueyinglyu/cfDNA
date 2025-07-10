@@ -37,7 +37,9 @@ Users need to prepare a list of samples by themselves before running the pipelin
 
 The name of sample matches to fastq files.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
 
+
 | sample1 | 
+| -------- |
 | sample2 |
 | sample3 |
 | sample4 |
