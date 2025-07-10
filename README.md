@@ -35,7 +35,7 @@ All necessary reference files are located in [cfDNA_reference] directory.
 
 Users need to prepare a list of samples by themselves before running the pipeline (e.g., sample.txt).
 
-The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
+The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz or sample1_1.fq.gz)
 
 | sample1 |
 | --------|
@@ -45,15 +45,20 @@ The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz/sample1_1.f
 | sample5 |
 
 
-# 3. Running
+# 3. Execution
+
+Run the pipeline to generate files for each sample. 
 
 ```
 python cfDNA_pipeline.py [tool_dir] sample.txt [out_dir] [cfDNA_reference] [fastq_dir]
+cd [tool_dir]/script
+sh sample1_cfDNA.sh
 ```
 e.g.
 ```
 python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/env/ sample.list /pathowh01/disk1/lyuxy/pipeline/result/ /pathowh01/disk1/lyuxy/pipeline/cfDNA_reference/ /pathowh01/disk1/lyuxy/cfDNA/raw_data/
-
+cd /pathowh01/disk1/lyuxy/pipeline/result/script
+sh 8846_cfDNA.sh
 ```
 
 # 4. Output
@@ -67,7 +72,9 @@ Below directories will be created under [out_dir]. Please copy these directories
 | fastp |
 | HBV |
 | mpileup |
+| script |
 | SNV |
+
 
 
 
