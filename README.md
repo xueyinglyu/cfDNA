@@ -33,7 +33,7 @@ Required packages and tools:
 # 2. Preparation 
 All necessary reference files are located in [cfDNA_reference] directory. 
 
-Users need to prepare a list of samples by themselves before running the pipeline (e.g., sample.txt).
+Users need to prepare a list of samples by themselves before running the pipeline (e.g., sample.list).
 
 The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz or sample1_1.fq.gz)
 
