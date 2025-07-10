@@ -37,8 +37,8 @@ Users need to prepare a list of samples by themselves before running the pipelin
 
 The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
 
-| --------|
 | sample1 |
+| --------|
 | sample2 |
 | sample3 |
 | sample4 |
@@ -60,9 +60,8 @@ python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/env/ sample.list /patho
 
 Below directories will be created under [out_dir]. Please copy these directories (cnvkit, endmotif, HBV, mpileup, SNV) to the hard disk. Thank you!
 
-
-| -------- |
 | bam |
+| -------- |
 | cnvkit |
 | endmotif |
 | fastp |
