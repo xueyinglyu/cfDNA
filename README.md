@@ -19,7 +19,7 @@ If these packages and tools cannot be installed successfully by conda, please tr
 Required packages and tools:
 <ol>
 <li>fastp (https://github.com/OpenGene/fastp)</li>
-<li>bwa</li>
+<li>bwa (https://github.com/lh3/bwa)</li>
 <li>samtools (https://www.htslib.org/download/)</li>
 <li>gatk4 (https://github.com/broadinstitute/gatk/releases)</li>
 <li>picard (https://broadinstitute.github.io/picard/)</li>
@@ -35,10 +35,8 @@ All necessary reference files are located in [cfDNA_reference] directory.
 
 Users need to prepare a list of samples by themselves before running the pipeline (e.g., sample.txt).
 
-The name of sample matches to fastq files.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
+The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz/sample1_1.fq.gz)
 
-
-|          | 
 | -------- |
 | sample1 |
 | sample2 |
@@ -55,4 +53,27 @@ python cfDNA_pipeline.py [tool_dir] sample.txt [out_dir] [cfDNA_reference] [fast
 e.g.
 ```
 python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/env/ sample.list /pathowh01/disk1/lyuxy/pipeline/result/ /pathowh01/disk1/lyuxy/pipeline/cfDNA_reference/ /pathowh01/disk1/lyuxy/cfDNA/raw_data/
+
 ```
+
+# 4. Output
+
+Below directories will be created under [out_dir]. Please copy these directories (cnvkit, endmotif, HBV, mpileup, SNV) to the hard disk. Thank you!
+
+
+| -------- |
+| bam |
+| cnvkit |
+| endmotif |
+| fastp |
+| HBV |
+| mpileup |
+| SNV |
+
+
+
+
+
+
+
+
