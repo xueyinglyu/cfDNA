@@ -3,12 +3,12 @@
 
 
 # 1. Installation
-All necessary packages and tools will be set up by conda.
+All necessary packages and tools will be set up in [tool_dir] by conda. 
 ```
 sh cfDNA_pipeline.sh [tool_dir]
 ```
 
-e.g., [env] subdirectory will be created automatically.
+e.g., [env] subdirectory will be created automatically, and no need to create the subdirectory by yourself.
 ```
 sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/env
 ```
@@ -48,6 +48,14 @@ The name of sample matches to fastq file.  e.g., (sample1_1.fastq.gz or sample1_
 # 3. Execution
 
 Run the pipeline to generate files for each sample. 
+
+[tool_dir]: directory of installed tools, created in the first step of installation.
+
+[out_dir]: output directory, needs to be created by you.
+
+[cfDNA_reference]: reference files, provided by the pipeline.
+
+[fastq_dir]: directory of fastq files.
 
 ```
 python cfDNA_pipeline.py [tool_dir] sample.txt [out_dir] [cfDNA_reference] [fastq_dir]
