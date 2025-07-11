@@ -64,7 +64,7 @@ sh sample1_cfDNA.sh
 sh sample2_cfDNA.sh
 ...
 ```
-e.g.
+e.g.,
 ```
 python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/env/ sample.list /pathowh01/disk1/lyuxy/pipeline/result/ /pathowh01/disk1/lyuxy/pipeline/cfDNA_reference/ /pathowh01/disk1/lyuxy/cfDNA/raw_data/
 cd /pathowh01/disk1/lyuxy/pipeline/result/script
@@ -77,13 +77,13 @@ Below directories will be created under [out_dir]. Please copy these directories
 
 |   bam    |
 | -------- |
-| cnvkit   |
-| endmotif |
-| fastp    |
-| HBV      |
-| mpileup  |
-| script   |
-| SNV      |
+|  cnvkit  |
+|  endmotif |
+|   fastp   |
+|    HBV   |
+|   mpileup  |
+|   script   |
+|      SNV      |
 
 
 
