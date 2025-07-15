@@ -13,8 +13,10 @@ e.g., [env] subdirectory will be created automatically, and you don't need to cr
 sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/env
 ```
 
-
-If these packages and tools cannot be installed successfully by conda, please try to install them in other ways and replace the paths of the tools in cfDNA_pipeline.py
+## Tips
+1. If cnvkit cannot be install sucessfully, please update conda, add neccessary channels and try installation again.
+ 
+2. If these packages and tools cannot be installed successfully by conda, please try to install them in other ways and replace the paths of the tools in cfDNA_pipeline.py
 
 Required packages and tools:
 <ol>
