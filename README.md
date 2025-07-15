@@ -53,7 +53,7 @@ Run the pipeline to generate files for each sample.
 
 [tool_dir]: directory of installed tools, created in the first step of installation.
 
-[out_dir]: output directory, needs to be created by you.
+[out_dir]: output directory.
 
 [cfDNA_reference]: reference files, provided by the pipeline.
 
@@ -68,7 +68,7 @@ sh sample2_cfDNA.sh
 ```
 e.g.,
 ```
-python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/env/ sample.list /pathowh01/disk1/lyuxy/pipeline/result/ /pathowh01/disk1/lyuxy/pipeline/cfDNA_reference/ /pathowh01/disk1/lyuxy/cfDNA/raw_data/
+python cfDNA_pipeline.py /pathowh01/disk1/lyuxy/pipeline/ sample.list /pathowh01/disk1/lyuxy/pipeline/result/ /pathowh01/disk1/lyuxy/pipeline/cfDNA_reference/ /pathowh01/disk1/lyuxy/cfDNA/raw_data/
 cd /pathowh01/disk1/lyuxy/pipeline/result/script
 sh 8846_cfDNA.sh
 ```
