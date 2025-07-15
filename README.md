@@ -13,6 +13,14 @@ e.g.,
 sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/
 ```
 
+If the installation is successful, subdirectories will be generated as below:
+
+[tool_dir]
+-[env]
+--[tools]
+--[AVID]
+--[cnvkit]
+
 ## Tips
 1. If one of the tools called cnvkit cannot be installed successfully, please update conda, add necessary channels (conda-forge and bioconda), and try the installation again.
  
