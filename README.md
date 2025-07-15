@@ -16,9 +16,13 @@ sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/
 If the installation is successful, subdirectories will be generated as below:
 
 [tool_dir]
+
 -[env]
+
 --[tools]
+
 --[AVID]
+
 --[cnvkit]
 
 ## Tips
