@@ -8,9 +8,9 @@ All necessary packages and tools will be set up in [tool_dir] by conda.
 sh cfDNA_pipeline.sh [tool_dir]
 ```
 
-e.g., [env] subdirectory will be created automatically, and you don't need to create the subdirectory yourself.
+e.g., 
 ```
-sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/env
+sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/
 ```
 
 ## Tips
