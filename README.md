@@ -14,7 +14,7 @@ sh cfDNA_pipeline.sh /pathowh01/disk1/lyuxy/pipeline/
 ```
 
 ## Tips
-1. If cnvkit cannot be install sucessfully, please update conda, add neccessary channels and try installation again.
+1. If one of the tools called cnvkit cannot be installed successfully, please update conda, add necessary channels (conda-forge and bioconda), and try the installation again.
  
 2. If these packages and tools cannot be installed successfully by conda, please try to install them in other ways and replace the paths of the tools in cfDNA_pipeline.py
 
